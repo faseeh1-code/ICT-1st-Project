@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+header {
+    background: #4a90e2;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+}
+nav {
+    margin: 20px 0;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+.social-icons {
+    margin-top: 10px;
+}
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #4a90e2;
+}
+.social-icons img {
+    width: 25px; 
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.skills, .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.skill {
+    background: #90ee90; /* Light green */
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    flex: 1 1 calc(30% - 20px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.project {
+    background: #add8e6; /* Light blue */
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #4a90e2;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
